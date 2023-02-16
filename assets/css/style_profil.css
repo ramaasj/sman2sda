@@ -678,7 +678,8 @@ Main
 }
 
 #mission p {
-  text-align: justify
+  text-align: justify;
+  color: #aaaaaa;
 }
 
 /*--------------------------------------------------------------
