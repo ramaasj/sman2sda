@@ -10,7 +10,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/smanda.png" rel="icon" size="16x16">
+  <link href="/assets/img/smanda.png" rel="icon" size="16x16">
 
   <!-- Google Fonts Open Sans-->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -22,18 +22,20 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
   <!-- Bootstrap Icons -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <!--Bootstrap 5-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style_profil.css" rel="stylesheet">
+  <link href="/assets/css/style_profil.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: Maxim - v4.10.0
@@ -50,7 +52,7 @@
     <div class="container d-flex justify-content-between">
 
       <div class="logo">
-        <h1><a href="#"><img src="assets/img/smanda.png" alt=""><span>SMAN 2 SIDOARJO</span></a></h1>
+        <h1><a href="#"><img src="/assets/img/smanda.png" alt=""><span>SMAN 2 SIDOARJO</span></a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
@@ -110,50 +112,86 @@
             <li><a href="profil.html">Profil</a></li>
             <li><a href="#">Sejarah</a></li>
             <li><a href="#">Visi Misi</a></li>
-            <li><a href="#">Kepala Sekolah</a></li>
-            <li><a href="#">Pengajar</a></li>
-            <li><a href="#">Struktur Organisasi Sekolah</a></li>
-            <li><a href="#">Komite Sekolah</a></li>
           </ol>
         </div>
 
       </div>
     </section><!-- Breadcrumbs Section -->
 
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
+    <section id="features" class="features">
       <div class="container">
 
         <div class="row">
-          
-          <div class="col-xl-6 col-lg-5 pt-5 pt-lg-0">
-            <h3 data-aos="fade-up">Menunggu Kedatanganmu!</h3>
-            <p data-aos="fade-up">
-              Kami sangat menanti kedatanganmu di SMA Negeri 2 Sidoarjo, tunggu apalagi? Ayo bergabung menjadi bagian dari SMANDA!
-            </p>
-            <div class="icon-box" data-aos="fade-up">
-              <i class="bi bi-hourglass-split"></i>
-              <h4>37 Tahun</h4>
-              <p>SMA Negeri 2 Sidoarjo didirikan pada tahun 1986, tidak terasa sudah 37 tahun berlalu.</p>
-            </div>
+          <div class="section-title">
+            <h2>Sejarah Singkat</h2>
+          </div>
 
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-              <i class="bi bi-person-bounding-box"></i>
-              <h4>1289 Siswa Aktif</h4>
-              <p>Terdiri dari 1289 siswa aktif yang tersebar dalam Kelas X-XI-XII.</p>
+          <div class="col-lg-4 mb-5 mb-lg-0" data-aos="fade-right">
+            <ul class="nav nav-tabs flex-column">
+              <li class="nav-item">
+                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">
+                  <h4>1986 - 1987</h4>
+                  <p>Awal Mula</p>
+                </a>
+              </li>
+              <li class="nav-item mt-2">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-2">
+                  <h4>1987 - 1996</h4>
+                  <p>Peningkatan Drastis</p>
+                </a>
+              </li>
+              <li class="nav-item mt-2">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-3">
+                  <h4>1996 - 2002</h4>
+                  <p>Penambahan Fasilitas</p>
+                </a>
+              </li>
+              <li class="nav-item mt-2">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-4">
+                  <h4>2003 - 2019</h4>
+                  <p>Perpindahan Lokasi</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div id="tab-wrapper" class="col-lg-7 ml-auto rounded border border-light" data-aos="fade-left">
+            <div class="tab-content">
+              <div class="tab-pane active show" id="tab-1">
+                <figure>
+                  <p>SMA Negeri 2 Sidoarjo didirikan berdasarkan keputusan Menteri Pendidikan dan Kebudayaan Nomer 0887/O/1986. Dimulai pada tahun ajaran 1986 – 1987 bertempat di SMA Negeri 1 Sidoarjo, SMA Negeri 2 mulai menerima murid baru sebanyak 120 siswa yang terbagi dalam  3 kelas belajar. Sebagai pelaksana Kepala sekolahnya adalah Kepala SMA Negeri 1 Sidoarjo, yaitu Bapak Moch. Agil BA.</p>
+                  <p>Selama satu tahun ajaran berlangsung, kegiatan belajar mengajar masih dibimbing oleh sebagaian besar guru guru SMA Negeri 1 Sidoarjo. Guru SMA Negeri 2 Sidoarjo saat itu baru berjumlah 5 orang.</p>
+                  <p>Dengan telah selesainya pembangunan gedung SMA Negeri 2 di desa Sidokare, maka pada tanggal 16 Juli 1987 SMA Negeri 2 pindah menempati gedung baru. Tanggal 16 Juli kini diperingati sebagai tanggal berdirinya SMA Negeri 2 Sidoarjo.</p>
+                </figure>
+              </div>
+              <div class="tab-pane" id="tab-2">
+                <figure>
+                  <p>Pada tahun pelajaran 1987 – 1988  Kepala Sekolah diserahterimakan dari Bapak Moch Agil BA kepada Bapak Achmad Soemardjo BA. Beliau sebelumnya adalah Kepala SMA Negeri Krian. Jumlah rombongan belajar bertambah menjadi 6 yang terdiri atas 3 kelas I dan 3 kelas II. Mengingat masih terbatasnya ruang belajar maka dengan terpaksa kelas I masuk sore hari. Guru guru pengajar pun mulai bertambah. Tambahan itu berasal dari mutasi dan pengangkatan baru  Jumlah tenaga administrasi baru ada 2 orang dan itupun belum pegawai negeri.</p>
+                  <p>Pada tahun 1992 – 1993 penerimaan murid baru ditingkatkan jumlah menjadi 200 siswa yang terbagi menjadi 5 kelas. Hal ini diiringi dengan pengembangan sarana berupa tambahan ruang kelas, ruang laboratorium IPA, ruang BP dan musholla. Jumlah rombongan belajar sampai dengan saat ini masih tetap 15 yang terbagi menjadi 3 kelas I, 3 kelas II dan 3 kelas III.</p>
+                  <p>Pada tangal 1 Juli 1996 Bapak Achmad Soemardjo pensiun. Untuk mengisi kekosongan Kepala Sekolah maka ditunjuk Kepala SMA Negeri 4, Ibu Anik Kadarwati, sebagai pelaksana tugas Kepala SMA Negeri 2. Dan pada tanggal 10 Oktober 1996 serah terima Kepala SMA Negeri 2 dilaksanakan antara Bapak Achmad Soemardjo dengan penggantinya Bapak Sutomo Mulyo BA.</p>
+                </figure>
+              </div>
+              <div class="tab-pane" id="tab-3">
+                <figure>
+                  <p>Selama kepemimpinan Bapak Sutomo pengembangan sarana prasarana sekolah terus dilakukan antara lain penambahan ruang kelas,pembangunan lapangan basket dan tenis, parkir sepeda siswa.</p>
+                  <p>Pada bulan Mei 2002 Bapak Sutomo pensiun sebagai Kepala SMA Negeri 2 dan sebagai pengantinya ditunjuk Drs Subagyo  Kepala SMA Negeri 4  sebagai Pelaksana tugas. Baru pada tanggal 1 Juli 2002 Kepala SMA 2 definitif ditunjuk. Beliau adalah Drs Tito Tanggul Maruto yang sebelumnya sebagai Kepala SMA Negeri Taman.</p>
+                  <p>Pada masa kepemimpinan Bapak Tito, SMA Negeri 2 Sidoarjo mendapatkan bantuan berupa blok grant imbal swadaya dan blok  grant  BOMM. Blok grant BIS digunakan untuk membangun 1 ruang kelas sedangkan bantuan BOMM diarahkan untuk peningkatan kualitas guru dalam melaksanakan KBM. Beberapa sarana prasarana juga ditambah antara lain adanya ruang laboratorium komputer, ruang multimedia dan penambahan laboratorium biologi.</p>
+                </figure>
+              </div>
+              <div class="tab-pane" id="tab-4">
+                <figure>
+                  <p>Ketika bulan Agustus 2003 Bapak Tito T Maruto purna tugas ditunjuk sebagai pelaksana tugas Kepala SMA Negeri 2 adalah Ibu Endang Oentari, Kepala SMA Negeri 3 Sidoarjo. Tanggal 1 Maret 2004 Kepala SMA Negeri 2 yang ke empat melakukan serah terima dengan PLT Kepala sekolah yang lama. Beliau adalah Ibu Dra Titik Sunarni MPd  yang sebelumnya Kepala SMA Negeri  Taman.</p>
+                  <p>Karena lokasi sering terjadi banjir dan sangat mengganggu kegiatan belajar mengajar maka tanggal 2 Januari 2011 SMAN 2 Sidoarjo pindah  lokasi di Jalan Lingkar Barat Gading Fajar 2 Sidoarjo sampai sekarang.</p>
+                  <p>Perkembangan sarana prasarana makin meningkat, prestasi belajar siswa  juga semakin meningkat. Pada tgl 14 Januari 2019 SMAN 2 Sidorjo dipimpin oleh kepala sekolah baru yaitu  Drs.H.F.A. Nurseno,M.Pd dari SMA Negeri 10 Surabaya.</p>
+                </figure>
+              </div>
             </div>
-
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
-              <i class="bi bi-person-badge"></i>
-              <h4>64 Tenaga Kependidikan</h4>
-              <p>Pendidikan adalah hal yang terpenting, oleh karena itu kami mempunyai Tenaga Kependidikan yang luar biasa.</p>
-            </div>
-
           </div>
         </div>
 
       </div>
-    </section><!-- End About Section -->
+    </section><!-- End Features Section -->
+
+    
 
     <!-- ======= Steps Section ======= -->
     <section id="steps" class="steps section-bg">
@@ -542,15 +580,15 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="/assets/vendor/aos/aos.js"></script>
+  <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="/assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="/assets/js/main.js"></script>
 
 </body>
 
