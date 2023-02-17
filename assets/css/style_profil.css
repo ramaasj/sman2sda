@@ -665,10 +665,15 @@ Main
 }
 
 .steps .content-item p {
-  color: #aaaaaa;
+  color: #838383;
   font-size: 15px;
   margin: 0;
   padding: 0;
+  text-align: center;
+}
+
+.steps i {
+  color: #1677B4;
 }
 
 @media (max-width: 768px) {
@@ -677,9 +682,10 @@ Main
   }
 }
 
-#mission p {
+#mission  li {
   text-align: justify;
-  color: #aaaaaa;
+  font-style: none;
+  color: #838383;
 }
 
 /*--------------------------------------------------------------
